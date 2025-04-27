@@ -97,7 +97,7 @@ const CS2Page = () => {
                   image="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?auto=format&fit=crop&w=300&h=300"
                   bestDrop="AWP | Нео-нуар"
                   game="cs2"
-                  isNew
+                  isNew={true}
                 />
                 <CaseCard 
                   title="Кейс «Революция»"
@@ -105,7 +105,7 @@ const CS2Page = () => {
                   image="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=300&h=300"
                   bestDrop="M4A4 | Император"
                   game="cs2"
-                  isNew
+                  isNew={true}
                 />
                 <CaseCard 
                   title="Кейс «Ночь»"
@@ -113,7 +113,7 @@ const CS2Page = () => {
                   image="https://images.unsplash.com/photo-1508333821969-9b3399bd9c10?auto=format&fit=crop&w=300&h=300"
                   bestDrop="AK-47 | Азимов"
                   game="cs2"
-                  isNew
+                  isNew={true}
                 />
               </div>
             </TabsContent>
@@ -152,7 +152,7 @@ const CS2Page = () => {
                   image="https://images.unsplash.com/photo-1529564217784-25151c7147ec?auto=format&fit=crop&w=300&h=300"
                   bestDrop="AWP | Драгон Лор"
                   game="cs2"
-                  isHot
+                  isHot={true}
                 />
                 <CaseCard 
                   title="Кейс «Хищник»"
@@ -160,7 +160,7 @@ const CS2Page = () => {
                   image="https://images.unsplash.com/photo-1554481923-a6918bd997bc?auto=format&fit=crop&w=300&h=300"
                   bestDrop="Керамбит | Градиент"
                   game="cs2"
-                  isHot
+                  isHot={true}
                 />
                 <CaseCard 
                   title="Кейс «Элитный»"
@@ -168,7 +168,7 @@ const CS2Page = () => {
                   image="https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&w=300&h=300"
                   bestDrop="M9 Штык-нож | Гамма Доплер"
                   game="cs2"
-                  isHot
+                  isHot={true}
                 />
               </div>
             </TabsContent>
